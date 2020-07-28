@@ -64,7 +64,7 @@ function build_desktop_panel()
 		   if (d.name) {return 1}
 		   else return 0.5
 	       })
-	.text(function(d){return d.name})
+	.html(function(d){return d.name})
 	.style('background-color', function(d){return d.color})
 
 
